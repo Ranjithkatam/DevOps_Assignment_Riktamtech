@@ -13,7 +13,7 @@ stages{
     }
     stage('Running-Container'){
         steps {
-            sh 'docker run -p 5000:5000 -d hello-Riktam'
+            sh 'docker run -p 5000:5000 -d hello-riktam'
         }
     }
     stage('Container-output'){

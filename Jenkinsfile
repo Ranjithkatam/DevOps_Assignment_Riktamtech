@@ -16,10 +16,5 @@ stages{
             sh 'docker run -p 5000:5000 -d hello-riktam'
         }
     }
-    stage('Container-output'){
-        steps {
-            sh 'curl http://localhost:5000'
-        }
-    }
     }
 }

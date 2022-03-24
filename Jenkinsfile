@@ -8,7 +8,7 @@ stages{
     }
     stage('Docker-Build'){
         steps {
-            sh 'docker build -t hello-Riktam .'
+            sh 'docker build -t hello-riktam .'
         }
     }
     stage('Running-Container'){
